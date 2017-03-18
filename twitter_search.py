@@ -26,10 +26,10 @@ packages imported above.
 def load_api():
     ''' Function that loads the twitter API after authorizing the user. '''
 
-    consumer_key = ''
-    consumer_secret = ''
-    access_token = ''
-    access_secret = ''
+    consumer_key = 'Lse67IeahlXvgCCjHI2j1RGXk'
+    consumer_secret = 'zpufNRGCX9tU4SlHoPjWI0szxDgDQ1XttvqnSvKDABB4We2RcD'
+    access_token = '842407534346432512-KWq54ZGBUiuO2GkkJVOnbGXEIS9Ql9d'
+    access_secret = '76qseXs6526Qo54dTyFAOKhczwBdgMRGMBCvhmoC21ogU'
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
     # load the twitter API via tweepy
@@ -103,14 +103,7 @@ def main():
 
 
     ''' search variables: '''
-    search_phrases = ['Pavelski', 'Lucic', 
-                     'Ovechkin', 'Giroux',
-                     'Jagr', 'John Tavares',
-                     'Kucherov', 'Mrazek',
-                     'Seguin', 'Pominville',
-                     'Crosby', 'Lundqvist',
-                     'Tarasenko', 'Patrick Kane',
-                     'Cory Perry', 'Forsberg']
+    search_phrases = ['THAAD']
     time_limit = 1.5                           # runtime limit in hours
     max_tweets = 100                           # number of tweets per search (will be
                                                # iterated over) - maximum is 100
